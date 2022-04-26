@@ -1,0 +1,7 @@
+#Rewrite de Tipsy
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}     !-f
+RewriteCond %{REQUEST_FILENAME}     !-d
+RewriteRule ^(.*)                   index.php?__url=$1 [L,QSA]
+#Set HTTP_AUTHORIZATION
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]

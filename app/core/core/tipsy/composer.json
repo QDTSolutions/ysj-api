@@ -1,0 +1,44 @@
+{
+	"name": "qdtsolutions/ysj",
+	"description": "\uD83E\uDD43 MVW PHP QDTSolutions Framework",
+	"license": "MIT",
+	"time": "2014-07-24",
+	"keywords": [
+		"php",
+		"mvw",
+		"mvc",
+		"framework"
+	],
+	"authors": [
+		{
+			"name": "José Manuel Pérez González",
+			"email": "qdtsolutions.0111@gmail.com",
+			"homepage": "http://www.qdtsolutions.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Devin Smith",
+			"email": "devin@tipsy.la",
+			"homepage": "http://devin.la",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.6.0"
+	},
+	"require-dev": {
+		"satooshi/php-coveralls": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Tipsy\\": "src/"
+		},
+		"files": [
+          "src/Tipsy.php"
+		]
+	},
+	"archive": {
+		"exclude": ["/tests", "/.travis.yml", "/.gitignore"]
+	}
+}

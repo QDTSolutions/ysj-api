@@ -1,0 +1,21 @@
+{
+    "name": "qdtsolutions/ysj-api",
+    "description": "YSJ API",
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "ramsey/uuid": "^4.1",
+        "ext-json": "*",
+        "ext-fileinfo": "*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "qdtsolutions/auth": "dev-main",
+        "qdtsolutions/db": "dev-main",
+        "qdtsolutions/gettext": "dev-main",
+        "qdtsolutions/ini": "dev-main",
+        "qdtsolutions/json": "dev-main",
+        "qdtsolutions/mail": "dev-main",
+        "qdtsolutions/translator": "dev-main",
+        "qdtsolutions/ysj": "dev-main",
+        "qdtsolutions/ysjdb": "dev-main"
+    }
+}

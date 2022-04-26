@@ -1,0 +1,27 @@
+{
+	"name": "qdtsolutions/ysjdb",
+	"description": "Fork ezSQL, just for mysqli, based on WPDB",
+	"license": "LGPL",
+	"authors": [
+		{
+			"name": "José Manuel Pérez González",
+			"email": "jmperez@utleon.edu.mx"
+		},
+		{
+			"name": "Justin Vincent",
+			"email": "webmaster@justinvincent.com"
+		},
+		{
+			"name": "Sunaryo Hadi"
+		}
+],
+	"require": {
+		
+	},
+	"autoload": {
+		"classmap": [
+          "mysqli/ez_sql_mysqli.php",
+			"shared/ez_sql_core.php"
+		]
+	}
+}

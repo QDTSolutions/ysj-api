@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-06-04 10:41-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SearchPath-0: app\n"
+"X-Poedit-SearchPath-1: assets\n"
+
+#: app/ajax/system/administrators/delete.php:10
+msgid "The administrator could not be deleted"
+msgstr "No se pudo eliminar el administrador"
+
+#: app/ajax/system/administrators/delete.php:12
+msgid "The administrator has been deleted"
+msgstr "El administrador se ha eliminado"
+
+#: app/ajax/system/administrators/edit.php:12
+#: app/ajax/system/administrators/new.php:4
+msgid "No data has been recived"
+msgstr "No se recibió información"
+
+#: app/ajax/system/administrators/edit.php:21
+#: app/ajax/system/administrators/new.php:14
+msgid "Unsafe data recived"
+msgstr "Se recibió información no permitida"
+
+#: app/ajax/system/administrators/edit.php:29
+msgid "There has been an error updating the administrator"
+msgstr "Ocurrió un error al actualizar el administrador"
+
+#: app/ajax/system/administrators/edit.php:31
+msgid "The administrator has been updated"
+msgstr "El administrador se ha actualizado"
+
+#: app/api/i18n/po2json.php:17
+msgid "JSON file generated successfully: "
+msgstr "Archivo JSON generado correctamente: "
+
+#: app/api/i18n/po2json.php:19
+msgid "The JSON could not be generated"
+msgstr "El archivo JSON no pudo ser generado"
+
+#: app/functions.php:5 app/views/system/administrators/edit.phtml:7
+#: app/views/system/administrators/index.phtml:7
+#: app/views/system/administrators/new.phtml:7 app/views/system/index.phtml:7
+#: app/views/system/index.phtml:11
+msgid "Home"
+msgstr "Inicio"
+
+#: app/functions.php:6 app/routes/system/administrators/index.php:6
+#: app/routes/system/administrators/index.php:13
+#: app/routes/system/administrators/index.php:20
+#: app/views/system/administrators/edit.phtml:10
+#: app/views/system/administrators/edit.phtml:17
+#: app/views/system/administrators/index.phtml:10
+#: app/views/system/administrators/new.phtml:10
+msgid "Administrators"
+msgstr "Administradores"
+
+#: app/functions.php:7
+msgid "View all"
+msgstr "Ver todos"
+
+#: app/functions.php:8
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: app/functions.php:10 app/views/templates/system.phtml:69
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: app/routes/system/administrators/index.php:6
+#: app/views/system/administrators/index.phtml:14
+msgid "View All"
+msgstr "Ver Todos"
+
+#: app/routes/system/administrators/index.php:13
+#: app/views/system/administrators/new.phtml:17
+msgid "New"
+msgstr "Nuevo"
+
+#: app/routes/system/administrators/index.php:20
+#: app/views/system/administrators/edit.phtml:13
+#: app/views/system/administrators/edit.phtml:17
+#: app/views/system/administrators/edit.phtml:64
+msgid "Edit"
+msgstr "Editar"
+
+#: app/core/assets/nodb/index.php:4 app/core/assets/nodb/index.php:8
+msgid "Could not connect to the database"
+msgstr "No se pudo conectar con la base de datos"
+
+#: app/core/assets/nodb/index.php:7
+msgid "Hi? Anyone there?"
+msgstr "¿Hola? ¿Hay alguien ahí?"
+
+#: app/core/assets/nodb/index.php:8
+msgid "Verify your connection data"
+msgstr "Verifica tu información de conexión"
+
+#: app/core/auth.php:23 app/core/auth.php:75
+#: app/core/auth.php:161
+msgid "Invalid e-mail"
+msgstr "Correo inválido"
+
+#: app/core/auth.php:26 app/core/auth.php:100
+#: app/core/auth.php:121 app/core/auth.php:164
+msgid "Invalid password"
+msgstr "Contraseña inválida"
+
+#: app/core/auth.php:29
+msgid "The username already exists"
+msgstr "El nombre de usuario ingresado ya existe"
+
+#: app/core/auth.php:32 app/core/auth.php:57
+#: app/core/auth.php:78 app/core/auth.php:103
+#: app/core/auth.php:170
+#, php-format
+msgid "Too many requests, try again in %s"
+msgstr "Se han realizado demasiadas peticiones, intente nuevamente en %s por favor"
+
+#: app/core/auth.php:35
+msgid "Database error"
+msgstr "Error de base de datos"
+
+#: app/core/auth.php:38 app/core/auth.php:60
+#: app/core/auth.php:81 app/core/auth.php:106
+#: app/core/auth.php:124 app/core/auth.php:176
+#, php-format
+msgid "Unknow error: %s"
+msgstr "Error desconocido: %s"
+
+#: app/core/auth.php:51 app/core/auth.php:94
+msgid "Invalid token selector"
+msgstr "Token inválido"
+
+#: app/core/auth.php:54 app/core/auth.php:97
+msgid "Token expired"
+msgstr "El token expiró"
+
+#: app/core/auth.php:118
+msgid "Not logged in"
+msgstr "No has iniciado sesión"
+
+#: app/core/auth.php:135
+msgid "Password changed successfully"
+msgstr "La contraseña se cambió exitosamente"
+
+#: app/core/auth.php:137
+msgid "An error occurred when changing the password"
+msgstr "Ocurrió un error al cambiar la contraseña"
+
+#: app/core/auth.php:145
+msgid "Role changed successfully"
+msgstr "El rol se cambió correctamente"
+
+#: app/core/auth.php:167
+msgid "Your user has not yet been verified, check your inbox"
+msgstr "Tu usuario no ha sido verificado, revisa tu bandeja de entrada por favor"
+
+#: app/core/auth.php:173
+msgid "Incorrect username or password"
+msgstr "El usuario y/o la contraseña son incorrectos"
+
+#: assets/admin/assets/js/vue/directives.js:15
+msgid "The file extension is not allowed"
+msgstr "Este tipo de archivo no está permitido"
+
+#: assets/admin/assets/plugins/jquery-ui/jquery-ui.min.js:8
+msgid "'"
+msgstr "'"
+
+#: assets/admin/assets/plugins/tinymce/tinymce.min.js:8
+msgid "align"
+msgstr "alinear"
+
+#: assets/admin/assets/plugins/tinymce/tinymce.min.js:8
+msgid "blockquote"
+msgstr "blockquote"
+
+#: assets/admin/assets/plugins/tinymce/tinymce.min.js:8
+msgid "p"
+msgstr "p"
+
+#: app/views/index.phtml:2
+msgid "Coming Soon"
+msgstr "Sitio en Construcción"
+
+#: app/views/system/administrators/edit.phtml:27
+#: app/views/system/administrators/index.phtml:29
+#: app/views/system/administrators/new.phtml:27
+msgid "Name"
+msgstr "Nombre"
+
+#: app/views/system/administrators/edit.phtml:33
+#: app/views/system/administrators/index.phtml:30
+#: app/views/system/administrators/new.phtml:33
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: app/views/system/administrators/edit.phtml:39
+#: app/views/system/administrators/index.phtml:32
+#: app/views/system/administrators/new.phtml:39
+msgid "E-mail"
+msgstr "Correo Electrónico"
+
+#: app/views/system/administrators/edit.phtml:45
+#: app/views/system/administrators/index.phtml:31
+#: app/views/system/administrators/new.phtml:45
+#: app/views/system/users/login.phtml:11
+msgid "User Name"
+msgstr "Usuario"
+
+#: app/views/system/administrators/edit.phtml:51
+#: app/views/system/administrators/new.phtml:51
+#: app/views/system/users/login.phtml:17
+msgid "Password"
+msgstr "Contraseña"
+
+#: app/views/system/administrators/edit.phtml:54
+msgid "If you do not wish to change the password, leave this field empty"
+msgstr "Si no deseas cambiar tu contraseña, deja este campo vacío"
+
+#: app/views/system/administrators/edit.phtml:58
+#: app/views/system/administrators/new.phtml:57
+msgid "Confirm Password"
+msgstr "Confirmar Contraseña"
+
+#: app/views/system/administrators/edit.phtml:60
+#: app/views/system/administrators/new.phtml:59
+msgid "The passwords are not equal"
+msgstr "Las contraseñas no son iguales"
+
+#: app/views/system/administrators/edit.phtml:64
+msgid "administrator"
+msgstr "administrador"
+
+#: app/views/system/administrators/index.phtml:33
+msgid "Activation Date"
+msgstr "Fecha de Activación"
+
+#: app/views/system/administrators/index.phtml:34
+msgid "Actions"
+msgstr "Acciones"
+
+#: app/views/system/administrators/new.phtml:13
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: app/views/system/administrators/new.phtml:17
+#: app/views/system/administrators/new.phtml:63
+msgid "Administrator"
+msgstr "Administrador"
+
+#: app/views/system/administrators/new.phtml:63
+msgid "Save"
+msgstr "Guardar"
+
+#: app/views/system/users/login.phtml:25
+msgid "Remember me"
+msgstr "Recuérdame"
+
+#: app/views/system/users/login.phtml:33
+msgid "Login"
+msgstr "Ingresar"
+
+#: app/views/system/users/login.phtml:40
+msgid "Forgot your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: app/views/templates/404.phtml:7
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: app/views/templates/404.phtml:38
+msgid "Sorry"
+msgstr "Lo sentimos"
+
+#: app/views/templates/404.phtml:38
+msgid "We could not found the page"
+msgstr "No pudimos encontrar la página que buscas"
+
+#: app/views/templates/404.phtml:41
+msgid "Return"
+msgstr "Regresar"
+
+#: app/views/templates/system.phtml:67
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: app/views/templates/system.phtml:103
+msgid "Made with"
+msgstr "Hecho con"

@@ -1,0 +1,15 @@
+#Archivos de Sistema
+.DS_Store
+
+#Archivos Subidos
+/uploads/*
+
+#Archivos de Configuración
+/config/config.ini
+
+#Vendor Composer
+/vendor
+/composer.lock
+
+#Gitlab CI/CD
+.gitlab-ci.yml
